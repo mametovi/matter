@@ -11497,6 +11497,14 @@ li {
   text-transform: lowercase;
 }
 
+.company-text p {
+  text-indent: 10px;
+}
+
+.company-text p:first-child {
+  text-indent: 0;
+}
+
 .company-text-bg {
   background: -webkit-gradient(linear, right top, left top, from(#282828), color-stop(#302e2e), color-stop(#505050), color-stop(#000000), to(#414040));
   background: -webkit-linear-gradient(right, #282828, #302e2e, #505050, #000000, #414040);
@@ -11908,7 +11916,7 @@ li {
 
 .header .link-compact li {
   font-size: 21px;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .header .link-compact li a {
