@@ -11796,30 +11796,6 @@ li {
   font-weight: bold;
 }
 
-.footer {
-  overflow: hidden;
-  position: relative;
-  background: url("../img/general/footer-bg.svg") no-repeat 110% center #000;
-  padding: 41px 0;
-  margin-top: 150px;
-}
-
-.footer-img .img-item {
-  width: 117px;
-  height: 227px;
-}
-
-.footer-img .img-item img {
-  margin-top: 46px;
-}
-
-.footer-img .img-item-f img {
-  position: absolute;
-  left: 405px;
-  top: -58px;
-  width: 1274px;
-}
-
 .contact-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11868,6 +11844,30 @@ li {
 
 .contact-wrap .cantact-link li:nth-child(2) {
   margin-bottom: 0;
+}
+
+.footer {
+  overflow: hidden;
+  position: relative;
+  background: url("../img/general/footer-bg.svg") no-repeat 110% center #000;
+  padding: 41px 0;
+  margin-top: 150px;
+}
+
+.footer-img .img-item {
+  width: 117px;
+  height: 227px;
+}
+
+.footer-img .img-item img {
+  margin-top: 46px;
+}
+
+.footer-img .img-item-f img {
+  position: absolute;
+  left: 405px;
+  top: -58px;
+  width: 1274px;
 }
 
 .header {
@@ -12082,7 +12082,7 @@ li {
 }
 
 .partner-logo img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .partner-box {
@@ -12261,16 +12261,6 @@ li {
 
 .loaded .preload {
   display: none;
-}
-
-@media (min-width: 1540px) {
-  .container,
-  .container-md,
-  .container-sm,
-  .container-xl,
-  .container-xxl {
-    max-width: 1920px;
-  }
 }
 
 @media (max-width: 1199.98px) {
